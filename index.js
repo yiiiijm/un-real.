@@ -426,7 +426,7 @@ const dataArr = [
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://test2.yikyung.repl.co",
     },
-    {
+   
     
 ];
 
