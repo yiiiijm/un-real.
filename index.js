@@ -123,7 +123,7 @@ const dataArr = [
         "link": "https://gokweol4.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/3JbVpZBk/image.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol3.yikyung.repl.co",
     },
     {
