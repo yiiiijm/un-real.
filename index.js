@@ -39,11 +39,11 @@ const dataArr = [
         "link": "https://gokweol10.yikyung.repl.co",
     },
      {
-        "image": "https://i.postimg.cc/ZqSD48GC/image.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol13.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/prWmH6Zq/image.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol12.yikyung.repl.co",
     },
     {
