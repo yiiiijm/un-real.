@@ -107,7 +107,7 @@ const dataArr = [
         "link": "https://gokweol8.yikyung.repl.co",
     },
     {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
+        "image": "https://i.postimg.cc/ncJR8PLb/image.jpg",
         "link": "https://gokweol7.yikyung.repl.co",
     },
     {
@@ -183,7 +183,7 @@ const dataArr = [
         "link": "https://test3.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/y8M5b464/gummy-bear.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol8.yikyung.repl.co",
     },
     {
@@ -203,7 +203,7 @@ const dataArr = [
         "link": "https://gokweol4.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/YSV13MtY/6.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol3.yikyung.repl.co",
     },
     {
@@ -339,7 +339,7 @@ const dataArr = [
         "link": "https://test5.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/HnXZFHH8/image.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://test4.yikyung.repl.co",
     },
     {
@@ -355,7 +355,7 @@ const dataArr = [
         "link": "https://gokweol13.yikyung.repl.co",
     },
     {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
+        "image": "https://i.postimg.cc/qvCz8j8q/Sadece-indir.jpg",
         "link": "https://gokweol12.yikyung.repl.co",
     },
     {
@@ -367,7 +367,7 @@ const dataArr = [
         "link": "https://gokweol10.yikyung.repl.co",
     },
     {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
+        "image": "https://i.postimg.cc/kG9xHLvT/Overlay.jpg",
         "link": "https://gokweol8.yikyung.repl.co",
     },
     {
