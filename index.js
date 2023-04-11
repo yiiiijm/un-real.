@@ -38,7 +38,7 @@ const dataArr = [
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol10.yikyung.repl.co",
     },
-     {
+    {
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol13.yikyung.repl.co",
     },
@@ -47,10 +47,10 @@ const dataArr = [
         "link": "https://gokweol12.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/9fQdy2nt/Discord-A-New-Way-to-Chat-with-Friends-Communities.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol6.yikyung.repl.co",
     },
-     {
+    {
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://test3.yikyung.repl.co",
     },
@@ -63,11 +63,11 @@ const dataArr = [
         "link": "https://gokweol7.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/K864zzfK/Plz-follow.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol11.yikyung.repl.co",
     },
     {
-     //   "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol10.yikyung.repl.co",
     },
      {
@@ -83,11 +83,11 @@ const dataArr = [
         "link": "https://gokweol7.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/g0bkp7c8/image.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol9.yikyung.repl.co",
     },
     {
-        "image": "https://i.postimg.cc/y8M5b464/gummy-bear.jpg",
+        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol8.yikyung.repl.co",
     },
     {
