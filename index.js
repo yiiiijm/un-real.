@@ -716,25 +716,6 @@ const scrollFunc = (event) => {
 };
 
 
-const imgContainer = document.getElementById("image-container");
-const imgs = document.querySelectorAll(".image");
-const imgWidth = imgs[0].clientWidth;
-const imgCount = imgs.length;
-let scrollPosition = 0;
-
-window.addEventListener("scroll", () => {
-  scrollPosition = window.scrollY;
-  if (scrollPosition >= imgWidth * imgCount) {
-    scrollPosition = 0;
-  }
-  moveImages(scrollPosition);
-});
-
-function moveImages(position) {
-  imgContainer.style.transform = `translateX(-${position}px)`;
-}
-
-
 
 init();
 animate();
