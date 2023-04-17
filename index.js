@@ -714,6 +714,20 @@ const scrollFunc = (event) => {
     console.log(targetZNum);
     // targetNum = event.deltaY;
 };
+container.addEventListener('scroll', function() {
+  const scrollPos = container.scrollLeft;
+  const containerWidth = container.offsetWidth;
+
+  // 마지막 이미지 위치에 도달했을 경우 첫 번째 이미지로 이동
+  const lastImagePos = images[images.length - 1].getBoundingClientRect().right + window.pageXOffset;
+  if (lastImagePos <= containerWidth) {
+    const firstImagePos = images[0].getBoundingClientRect().left + window.pageXOffset;
+    const newScrollPos = scrollPos - (lastImagePos - firstImagePos);
+    container.scrollTo({
+      left: newScrollPos,
+      behavior: 'smooth'
+    });
+  }
 
 
 init();
