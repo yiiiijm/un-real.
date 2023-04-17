@@ -600,7 +600,7 @@ const addBox = (i) => {
 
     const material = new THREE.SpriteMaterial({ map: imageMap });
     const boxMesh = new THREE.Sprite(material);
-    boxMesh.scale.set(12, 12, 1);
+    boxMesh.scale.set(5, 5, 1);
 
     let x = Math.random() * 400 - 400 / 2;
     let y = Math.random() * 200 - 200 / 2;
