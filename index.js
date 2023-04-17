@@ -661,7 +661,7 @@ const onDocumentMouseDown = (event) => {
     if (intersects.length > 0) {
         const item = intersects[0].object;
         const itemName = item.name;
-    window.open(item.link,"_blank", options);
+    window.open(item.link,"_blank");
         console.log(item.link);
     }
 };
