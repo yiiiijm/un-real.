@@ -661,7 +661,10 @@ const onDocumentMouseDown = (event) => {
     if (intersects.length > 0) {
         const item = intersects[0].object;
         const itemName = item.name;
-        window.open(item.link, "_parent");
+      
+        function popup(){
+  let options = "toolbar=no,scrollbars=no,resizable=yes,status=no,menubar=no,width=800, height=800, top=0,left=0";
+  window.open(item.link,"_blank", options);
         console.log(item.link);
     }
 };
