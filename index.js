@@ -93,7 +93,7 @@ const addBox = (i) => {
 
   let x = Math.random() * 400 - 400 / 2;
   let y = Math.random() * 200 - 200 / 2;
-  let z = -i * depthNum % totalDepthNum; // % 연산자 사용
+  let z = -Math.floor(i / totalNum) * totalDepthNum + (i % totalNum) * depthNum;
   boxMesh.name = `imageBox_${i}`;
   boxMesh.link = dataArr[i % dataArr.length].link;
   boxMesh.position.set(x, y, z);
