@@ -93,7 +93,7 @@ const addBox = (i) => {
 
   let x = Math.random() * 400 - 400 / 2;
   let y = Math.random() * 200 - 200 / 2;
-  let z = -Math.floor(i / totalNum) * totalDepthNum + (i % totalNum) * depthNum;
+  let z = Math.floor(i / totalNum) * totalDepthNum - (i % totalNum) * depthNum;
   boxMesh.name = `imageBox_${i}`;
   boxMesh.link = dataArr[i % dataArr.length].link;
   boxMesh.position.set(x, y, z);
@@ -105,6 +105,7 @@ const addBox = (i) => {
 for (let i = 0; i < totalNum; i++) {
   addBox(i);
 }
+boxGroup.position.z = -totalDepthNum; // 이미지 데이터가 반대 방향으로 이동
 
 
 
