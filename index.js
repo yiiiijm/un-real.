@@ -84,23 +84,20 @@ const init = () => {
 
 //박스 추가
 const addBox = (i) => {
-  const data = infiniteDataArr[i];
-  const imageMap = new THREE.TextureLoader().load(data.image);
-
+  const imageMap = new THREE.TextureLoader().load(dataArr[i % dataArr.length].image);
   const material = new THREE.SpriteMaterial({ map: imageMap });
   const boxMesh = new THREE.Sprite(material);
   boxMesh.scale.set(5, 5, 1);
 
   let x = Math.random() * 400 - 400 / 2;
   let y = Math.random() * 200 - 200 / 2;
-  let z = -i * depthNum % totalDepthNum; // % 연산자 사용
+  let z = -Math.floor(i * depthNum / totalDepthNum) * depthNum;
   boxMesh.name = `imageBox_${i}`;
-  boxMesh.link = data.link;
+  boxMesh.link = dataArr[i % dataArr.length].link;
   boxMesh.position.set(x, y, z);
   boxMesh.rotation.set(x, y, z);
   boxGroup.add(boxMesh);
 };
-
 
 //조명 넣기
 const addLight = (...pos) => {
