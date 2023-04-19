@@ -592,29 +592,24 @@ const init = () => {
 };
 
 //박스 추가
-    const addBox = (i) => {
-        const imageMap = new THREE.TextureLoader().load(dataArr[i].image);
-        //imageMap.wrapS = THREE.RepeatWrapping;
-        //imageMap.wrapT = THREE.RepeatWrapping;
-        //imageMap.repeat.set(4, 4);
+const addBox = (i) => {
+    const imageMap = new THREE.TextureLoader().load(dataArr[i].image);
+    //imageMap.wrapS = THREE.RepeatWrapping;
+    //imageMap.wrapT = THREE.RepeatWrapping;
+    //imageMap.repeat.set(4, 4);
 
-        const material = new THREE.SpriteMaterial({ map: imageMap });
-        const boxMesh = new THREE.Sprite(material);
-        boxMesh.scale.set(5, 5, 1);
+    const material = new THREE.SpriteMaterial({ map: imageMap });
+    const boxMesh = new THREE.Sprite(material);
+    boxMesh.scale.set(5, 5, 1);
 
-        let x = Math.random() * 400 - 400 / 2;
-        let y = Math.random() * 200 - 200 / 2;
-        let z = -i * depthNum;
-        boxMesh.name = `imageBox_${i}`;
-        boxMesh.link = dataArr[i].link;
-        boxMesh.position.set(x, y, z);
-        boxMesh.rotation.set(x, y, z);
-        boxGroup.add(boxMesh);
-    };
-
-    for (let i = 0; i <= totalNum; i++) {
-        addBox(i);
-    }
+    let x = Math.random() * 400 - 400 / 2;
+    let y = Math.random() * 200 - 200 / 2;
+    let z = -i * depthNum;
+    boxMesh.name = `imageBox_${i}`;
+    boxMesh.link = dataArr[i].link;
+    boxMesh.position.set(x, y, z);
+    boxMesh.rotation.set(x, y, z);
+    boxGroup.add(boxMesh);
 };
 
 //조명 넣기
@@ -666,8 +661,8 @@ const onDocumentMouseDown = (event) => {
     if (intersects.length > 0) {
         const item = intersects[0].object;
         const itemName = item.name;
-    window.open(item.link, "_blank", "width=700,height=700,left=" + Math.random() * screen.width + ",top=" + Math.random() * screen.height + ",menubar=no,status=no,titlebar=no,toolbar=no,dependent=yes");
-    console.log(item.link);
+    window.open(item.link, "_blank", "width=500,height=500,left=" + Math.random() * screen.width + ",top=" + Math.random() * screen.height + ",menubar=no,status=no,titlebar=no,toolbar=no,dependent=yes");
+       console.log(item.link);
     }
 };
 
@@ -737,4 +732,3 @@ window.addEventListener("mousemove", (e) => {
 window.addEventListener("pointermove", onPointerMove);
 window.addEventListener("mousedown", onDocumentMouseDown);
 //window.requestAnimationFrame(render);
-
