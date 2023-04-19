@@ -82,7 +82,8 @@ const init = () => {
     addLight(15, 15, 20);
 };
 
-//박스 추가
+
+// 박스 추가
 const addBox = (i) => {
   const imageMap = new THREE.TextureLoader().load(dataArr[i % dataArr.length].image);
 
@@ -92,13 +93,19 @@ const addBox = (i) => {
 
   let x = Math.random() * 400 - 400 / 2;
   let y = Math.random() * 200 - 200 / 2;
-  let z = -i * depthNum % (dataArr.length * depthNum);
+  let z = -i * depthNum % totalDepthNum; // % 연산자 사용
   boxMesh.name = `imageBox_${i}`;
   boxMesh.link = dataArr[i % dataArr.length].link;
   boxMesh.position.set(x, y, z);
   boxMesh.rotation.set(x, y, z);
   boxGroup.add(boxMesh);
 };
+
+// 이미지 데이터 반복해서 추가
+for (let i = 0; i < totalNum; i++) {
+  addBox(i);
+}
+
 
 
 
