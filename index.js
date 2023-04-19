@@ -651,18 +651,19 @@ const onPointerMove = (event) => {
     }
 };
 
-const onDocumentMouseDown = (event) => {
-    const vector = new THREE.Vector3(pointer.x, pointer.y, 0.5);
+let previousPopup;
 
-    vector.unproject(camera);
-    raycaster.setFromCamera(pointer, camera);
-    const intersects = raycaster.intersectObjects(boxGroup.children);
-
-    if (intersects.length > 0) {
+if (intersects.length > 0) {
         const item = intersects[0].object;
         const itemName = item.name;
-    window.open(item.link, "_blank", "width=500,height=500,left=" + Math.random() * screen.width + ",top=" + Math.random() * screen.height + ",menubar=no,status=no,titlebar=no,toolbar=no,dependent=yes");
-       console.log(item.link);
+        const newPopup = window.open(item.link, "_blank", "width=500,height=500,left=" + Math.random() * screen.width + ",top=" + Math.random() * screen.height + ",menubar=no,status=no,titlebar=no,toolbar=no,dependent=yes");
+        
+        if (previousPopup && !previousPopup.closed) {
+            previousPopup.close();
+        }
+        previousPopup = newPopup;
+
+        console.log(item.link);
     }
 };
 
