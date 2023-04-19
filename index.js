@@ -18,125 +18,23 @@ let mouseX = 0,
     moveY = 0;
 
 const dataArr = [
-     {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol13.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol13.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol12.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol11.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol10.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol13.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol12.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol6.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://test3.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol8.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol7.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol11.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol10.yikyung.repl.co",
-    },
-     {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://test3.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol8.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol7.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol9.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol8.yikyung.repl.co",
-    },
-    {
-        "image": "https://i.postimg.cc/V6bxNf7N/3.jpg",
-        "link": "https://gokweol7.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol6.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://test3.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol8.yikyung.repl.co",
-    },
-    {
-        "image": "https://i.postimg.cc/ncJR8PLb/image.jpg",
-        "link": "https://gokweol7.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol6.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol5.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol4.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol3.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol2.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol1.yikyung.repl.co",
-    },
-
-
+  {
+    "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
+    "link": "https://gokweol13.yikyung.repl.co",
+  },
+  {
+    "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
+    "link": "https://gokweol13.yikyung.repl.co",
+  },
+  // ... 더 많은 데이터 객체들
 ];
+
+const infiniteDataArr = new Array(totalNum)
+  .fill(null)
+  .map((_, i) => dataArr[i % dataArr.length]);
+
+
+
 
 const init = () => {
     totalNum = dataArr.length - 1; //전체 박스 갯수
@@ -186,7 +84,8 @@ const init = () => {
 
 //박스 추가
 const addBox = (i) => {
-  const imageMap = new THREE.TextureLoader().load(dataArr[i].image);
+  const data = infiniteDataArr[i];
+  const imageMap = new THREE.TextureLoader().load(data.image);
 
   const material = new THREE.SpriteMaterial({ map: imageMap });
   const boxMesh = new THREE.Sprite(material);
@@ -196,7 +95,7 @@ const addBox = (i) => {
   let y = Math.random() * 200 - 200 / 2;
   let z = -i * depthNum % totalDepthNum; // % 연산자 사용
   boxMesh.name = `imageBox_${i}`;
-  boxMesh.link = dataArr[i].link;
+  boxMesh.link = data.link;
   boxMesh.position.set(x, y, z);
   boxMesh.rotation.set(x, y, z);
   boxGroup.add(boxMesh);
