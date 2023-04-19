@@ -593,11 +593,7 @@ const init = () => {
 
 //박스 추가
 const addBox = (i) => {
-  const randomIndex = Math.floor(Math.random() * dataArr.length);
-  const imageMap = new THREE.TextureLoader().load(dataArr[randomIndex].image);
-  // imageMap.wrapS = THREE.RepeatWrapping;
-  // imageMap.wrapT = THREE.RepeatWrapping;
-  // imageMap.repeat.set(4, 4);
+  const imageMap = new THREE.TextureLoader().load(dataArr[i].image);
 
   const material = new THREE.SpriteMaterial({ map: imageMap });
   const boxMesh = new THREE.Sprite(material);
@@ -605,9 +601,9 @@ const addBox = (i) => {
 
   let x = Math.random() * 400 - 400 / 2;
   let y = Math.random() * 200 - 200 / 2;
-  let z = -i * depthNum;
+  let z = -i * depthNum % totalDepthNum; // % 연산자 사용
   boxMesh.name = `imageBox_${i}`;
-  boxMesh.link = dataArr[randomIndex].link;
+  boxMesh.link = dataArr[i].link;
   boxMesh.position.set(x, y, z);
   boxMesh.rotation.set(x, y, z);
   boxGroup.add(boxMesh);
