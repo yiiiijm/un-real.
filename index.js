@@ -653,19 +653,33 @@ const onPointerMove = (event) => {
 
 let previousPopup;
 
-if (intersects.length > 0) {
+const onDocumentMouseDown = (event) => {
+    const vector = new THREE.Vector3(pointer.x, pointer.y, 0.5);
+
+    vector.unproject(camera);
+    raycaster.setFromCamera(pointer, camera);
+    const intersects = raycaster.intersectObjects(boxGroup.children);
+
+    if (intersects.length > 0) {
         const item = intersects[0].object;
         const itemName = item.name;
-        const newPopup = window.open(item.link, "_blank", "width=500,height=500,left=" + Math.random() * screen.width + ",top=" + Math.random() * screen.height + ",menubar=no,status=no,titlebar=no,toolbar=no,dependent=yes");
         
         if (previousPopup && !previousPopup.closed) {
+            // 이미 열려있는 팝업이 있는 경우, 해당 팝업을 닫습니다.
             previousPopup.close();
         }
-        previousPopup = newPopup;
+        
+        // 새로운 팝업을 엽니다.
+        const newPopup = window.open(item.link, "_blank", "width=500,height=500,left=" + Math.random() * screen.width + ",top=" + Math.random() * screen.height + ",menubar=no,status=no,titlebar=no,toolbar=no,dependent=yes");
 
+        // 새로 열린 팝업을 previousPopup 변수에 저장합니다.
+        previousPopup = newPopup;
+        
         console.log(item.link);
     }
 };
+
+
 
 const animate = () => {
     //controls.update();
