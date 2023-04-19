@@ -666,7 +666,7 @@ const onDocumentMouseDown = (event) => {
     if (intersects.length > 0) {
         const item = intersects[0].object;
         const itemName = item.name;
-    window.open(item.link, "_blank", "width=300,height=300,left=" + Math.random() * screen.width + ",top=" + Math.random() * screen.height + ",menubar=no,status=no,titlebar=no,toolbar=no,dependent=yes");
+    window.open(item.link, "_blank", "width=700,height=700,left=" + Math.random() * screen.width + ",top=" + Math.random() * screen.height + ",menubar=no,status=no,titlebar=no,toolbar=no,dependent=yes");
     console.log(item.link);
     }
 };
