@@ -482,7 +482,8 @@ const init = () => {
 
 // 박스 추가
 const addBox = (i) => {
-  const imageMap = new THREE.TextureLoader().load(dataArr[i % dataArr.length].image);
+  const data = infiniteDataArr[i];
+  const imageMap = new THREE.TextureLoader().load(data.image);
 
   const material = new THREE.SpriteMaterial({ map: imageMap });
   const boxMesh = new THREE.Sprite(material);
@@ -492,7 +493,7 @@ const addBox = (i) => {
   let y = Math.random() * 200 - 200 / 2;
   let z = Math.floor(i / totalNum) * totalDepthNum - (i % totalNum) * depthNum;
   boxMesh.name = `imageBox_${i}`;
-  boxMesh.link = dataArr[i % dataArr.length].link;
+  boxMesh.link = data.link;
   boxMesh.position.set(x, y, z);
   boxMesh.rotation.set(x, y, z);
   boxGroup.add(boxMesh);
