@@ -18,22 +18,6 @@ let mouseX = 0,
     moveY = 0;
 
 const dataArr = [
-   {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol13.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol12.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol11.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gokweol10.yikyung.repl.co",
-    },
     {
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gokweol8.yikyung.repl.co",
@@ -437,7 +421,7 @@ const dataArr = [
     {
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gif-85.yikyung.repl.co",
-    },
+    }
     
   // ... 더 많은 데이터 객체들
 ];
