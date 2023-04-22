@@ -312,10 +312,6 @@ const dataArr = [
     },
     {
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gif-58.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gif-59.yikyung.repl.co",
     },
     {
@@ -392,10 +388,6 @@ const dataArr = [
     },
     {
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gif-78.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gif-79.yikyung.repl.co",
     },
     {
@@ -409,14 +401,6 @@ const dataArr = [
     {
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
         "link": "https://gif-82.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gif-83.yikyung.repl.co",
-    },
-    {
-        "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
-        "link": "https://gif-84.yikyung.repl.co",
     },
     {
         "image": "https://png.pngtree.com/png-clipart/20200704/ourmid/pngtree-black-gradient-radial-gradient-png-image_2274808.jpg",
