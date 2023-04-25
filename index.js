@@ -6,7 +6,7 @@ let HEIGHT = window.innerHeight;
 let scene, camera, renderer, controls;
 let boxGroup = new THREE.Object3D();
 
-let totalNum = 7000; //전체 박스 갯수
+let totalNum = 99999999; //전체 박스 갯수
 const depthNum = 10; //박스와 박스 사이 z값. 깊이
 const totalDepthNum = totalNum * depthNum; //전체 깊이
 
